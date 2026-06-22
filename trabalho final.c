@@ -6,10 +6,10 @@
 
 #define VAZIA ' '
 #define BLOQUEADA '#'
-#define PECA_CIMA 'O'
-#define DAMA_CIMA '&'
+#define PECA_CIMA 'o'
+#define DAMA_CIMA 'O'
 #define PECA_BAIXO '@'
-#define DAMA_BAIXO '0'
+#define DAMA_BAIXO '&'
 
 enum Jogador {
     JOGADOR_CIMA = 0,
@@ -42,5 +42,5 @@ int dentro_tabuleiro(int linha, int coluna) {
 }
 
 int casa_jogavel(int linha, int coluna) {
-    return dentro_tabuleiro(linha, coluna) && ((linha + coluna) % 2 == 1);
+    return dentro_tabuleiro(linha, coluna) && ((linha + coluna) % 2 == 0);
 }
