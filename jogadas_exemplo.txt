@@ -1,0 +1,12 @@
+# Arquivo de exemplo de jogadas - Damas 10x10
+# Formato: ColLin--ColLin  (ex: B0--C1)
+# Linhas com '#' sao ignoradas
+
+# Turno 1 - Jogador 1 (o)
+C2--D3
+# Turno 2 - Jogador 2 (@)
+D7--C6
+# Turno 3 - Jogador 1
+E2--D3
+# Turno 4 - Jogador 2
+C6--B5
